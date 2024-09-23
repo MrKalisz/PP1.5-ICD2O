@@ -150,7 +150,7 @@ def test_q4_2(capsys):
     return input_values.pop(0)
   PP1_5.input = mock_input
 
-  PP1_5.q5()
+  PP1_5.q4()
   captured = capsys.readouterr()
   assert captured.out == "Input a number: 0\n"
 
